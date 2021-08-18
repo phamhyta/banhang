@@ -1,0 +1,42 @@
+- dashboard 
+      - thông tin cá nhân
+      - lựa chọn card default, thêm card
+      - đặt phòng phải cập nhật lại số phòng -> cập nhật 
+		=> Một là cập nhật book  phòng  thành công vào ngày bắt của lịch book của người ta
+			-> Khi mà chưa tới ngày đấy -> vẫn để nguyên
+			-> Nếu như book trùng này -> Toang
+			Bài toán đặt ra:
+				Cho danh sách những lịch đặt trước của một một khách sạn nào đấy về số lượng phòng
+				-> Check thử xem là còn trống phòng nào trong khoảng thời gian mà người ta sử dụng hay không
+			CSDL: Chưa có nơi lưu lịch + phòng khách sạn, các khách sạn sẽ định danh phòng theo
+			Mình sẽ sử dụng khoảng thời gian của người dùng để check thử với từng khoảng thời gian hiện tại của phòng đó
+			Nếu như mà số lượng trùng == số lượng phòng hiện tại thì báo là hết phòng trong khoảng thời gian đó
+			-> Cập nhật cơ sở dữ liệu mới cho phòng
+				(Khi mà thêm thì phải tạo doc kèm theo cho từng phòng luôn)
+				Mỗi khách sạn sẽ thêm một collection mới đó là UpcommingBooking 
+				(thể hiện những lịch trình hiện có trong tương lại + hiện tại)
+				Khi ngươi dùng book, mình sẽ request về server về khoảng thời gian người dùng book
+				sau đó kiểm tra xem bị trùng bao nhiêu lần
+				Số lần trùng < số phòng khả dụng -> còn phòng
+				-> Nếu không thì hết phòng
+
+Cần làm:
+	Cập nhật lại csdl của các phòng
+	Mỗi phòng phải đươc gắn một cái id để định danh (id có dạng idhotel + số thứ tự thêm vào)
+	Sử dụng cho collection
+	Trong mỗi collection Room, mỗi doc là một chuỗi thời gian (beginDate và endDate)
+	Cứ mỗi lần đặt thành công thì thêm vào đó để làm dữ liệu check trùng ngày
+
+User -> nếu như người dùng đã chọn ngày thì sẽ báo khi người dùng chọn phòng
+     -> nếu như chưa chọn ngày thì sẽ báo ở phần thanh toán	
+
+Host -> chỉnh sửa: lúc up dữ liệu lên thành công thì tạo các collection tương ứng với các phòng -> (2)
+	- Room thêm một trường là id -> (1)
+	Khi up lên thì update lại trường id cho các room
+	Sau đó tạo thêm các collection ở firebase ứng với các id của các phòng vừa tạo
+	
+
+xong thuật toán
+thuật toán -> nhờ server check xem có đụng độ không :v -> rồi trả về
+		req param -> beginDate timestamp, endDate timestamp, hotelid, roomid
+			 
