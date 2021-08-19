@@ -42,16 +42,16 @@
                   <div class="flex-none text-sm font-medium text-gray-700 mt-2 mr-2 ">Color</div>
                   <div class="space-x-2 flex">
                     <label>
-                      <img class="w-32 h-32 flex items-center justify-center border-2 rounded-lg" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="">
-                      <input class="w-5 h-5 flex items-center justify-center border-2 rounded-lg mt-2" type="radio" name="size" value=" 36" checked>
+                      <img class="w-32 h-32 flex items-center justify-center rounded-lg" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="">
+                      <input class="w-5 h-5 flex items-center justify-center rounded-lg mt-2" type="radio" name="size" value="">
                     </label>
                     <label>
-                      <img class="w-32 h-32 flex items-center justify-center border-2 rounded-lg" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="">
-                      <input class="w-5 h-5 flex items-center justify-center border-2 rounded-lg mt-2" type="radio" name="size" value=" 37">
+                      <img class="w-32 h-32 flex items-center justify-center rounded-lg" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="">
+                      <input class="w-5 h-5 flex items-center justify-center rounded-lg mt-2" type="radio" name="size" value="">
                     </label>
                     <label>
-                      <img class="w-32 h-32 flex items-center justify-center border-2 rounded-lg" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="">
-                      <input class="w-5 h-5 flex items-center justify-center border-2 rounded-lg mt-2" type="radio" name="size" value=" 39"> 
+                      <img class="w-32 h-32 flex items-center justify-center rounded-lg" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="">
+                      <input class="w-5 h-5 flex items-center justify-center rounded-lg mt-2" type="radio" name="size" value=""> 
                     </label>
                   </div>
                 </div>
@@ -89,32 +89,45 @@
               </form>
         </div>
     </div>
-    <div class="relative w-full h-96 mt-12 border-t-2 border-gray-300">
+    <div class="relative w-full h-96 mt-6 border-t-2 border-gray-300">
         <div class="absolute left-96 top-0 w-1/5 border-2 h-48 mt-4">
           <img class="w-full h-full float-left" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="" width="512" height="384">
         </div>
-        <p class="ml-6 mt-12">
-          <svg width="30" height="30" fill="currentColor" class="text-violet-600">
+        <div class="flex items-center text-sm font-medium my-5 sm:mt-2 sm:mb-4">
+          <div class="flex-none text-sm font-medium text-gray-700 mr-2">Xếp hạng và đánh giá</div>
+          <svg width="20" height="20" fill="currentColor" class="text-violet-600">
             <path d="M9.05 3.691c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.372 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.539 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.363-1.118l-2.8-2.034c-.784-.57-.381-1.81.587-1.81H7.03a1 1 0 00.95-.69L9.05 3.69z" />
-          </svg>  
-
-          </p>
+          </svg>
+          <div class="ml-1">
+            <span class="text-black">4.94</span>
+            <span class="sm:hidden md:inline">(128)</span>
+          </div>
+          <div class="text-base font-normal mx-2">·</div>
+        </div>
         <div class="absolute bottom-0 right-10 w-1/5 border-2 h-48 mb-4">
           <img class="w-full h-full float-right" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="" width="512" height="384">
         </div>
-        <p>
-          <h1 class="flex-auto text-2xl font-semibold float-right mr-96"> NIKE FAKE</h1>
-          <br>
-          <br>
-          <h3 class="flex-auto text-l font-semibold float-right w-1/3 mr-48">
-            Tuy là hàng fake nhưng mà chất lượng không kém hàng real, màu sắc mẫu mã phải nói là chuẩn fake :)))
+        <div>
+            <h1 class="flex-auto text-2xl font-semibold float-right mr-96"> NIKE FAKE</h1>
             <br>
-            Sản phẩm đảm bảo 1 lần nhìn qua k thể phát hiện là giả :))
-          </h3>
-        </p>
+            <br>
+            <h3 class="flex-auto text-l font-semibold float-right w-1/3 mr-48">
+              Tuy là hàng fake nhưng mà chất lượng không kém hàng real, màu sắc mẫu mã phải nói là chuẩn fake :)))
+              <br>
+              Sản phẩm đảm bảo 1 lần nhìn qua k thể phát hiện là giả :))
+            </h3>
+        </div>
     </div>
-    <div class="relative w-full h-64 border-2">
-      flash sale
+    <div class="relative w-full h-64 border-t-2">
+      <div class="flex justify-center text-xl font-semibold">
+        YOU MIGHT LIKE
+      </div>
+      <div class="flex p-6">
+        <img class="w-1/4 h-48 flex items-center justify-center rounded-lg p-4" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="">
+        <img class="w-1/4 h-48 flex items-center justify-center rounded-lg p-4" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="">
+        <img class="w-1/4 h-48 flex items-center justify-center rounded-lg p-4" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="">
+        <img class="w-1/4 h-48 flex items-center justify-center rounded-lg p-4" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="">
+      </div>
     </div>
     @yield('content') 
 </body>
