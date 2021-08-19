@@ -13,14 +13,16 @@
     </div>
     <div class="flex justify-between w-full border-2 h-96">
         <div class= "w-1/6 border-2 h-96">
-          <div>
-          <img class="w-full h-32" src="image/anh_giay_nu/2(6).png" alt="" width="512" height="384">
-          <img class="w-full h-32" src="image/anh_giay_nu/2(8).png" alt="" width="512" height="384">
-          <img class="w-full h-32" src="image/anh_giay_nu/2(7).png" alt="" width="512" height="384">
+          <div class="px-2">
+          <img class="w-full h-28 mt-2" src={require('image/anh_giay_nu/2(8).png')} alt="" width="512" height="384">
+          <img class="w-full h-28 mt-2" src="image/anh_giay_nu/2(8).png" alt="" width="512" height="384">
+          <img class="w-full h-28 mt-2" src="image/anh_giay_nu/2(7).png" alt="" width="512" height="384">
         </div>
         </div>
-        <div class="w-2/6 border-2 h-96">2</div>
-        <div class="w-2/6 h-96">
+        <div class="w-2/6 border-2 h-96 p-6">
+          <img class="w-full h-full" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="" width="512" height="384">
+        </div>
+        <div class="w-3/6 h-96">
             <form class="flex-auto p-6">
                 <div class="flex flex-wrap">
                   <h1 class="flex-auto text-xl font-semibold">
