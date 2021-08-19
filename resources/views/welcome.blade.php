@@ -13,9 +13,9 @@
     </div>
     <div class="flex justify-between w-full border-2 h-96">
         <div class= "w-1/6 border-2 h-96">
-          <img class="w-full h-32 border-2" src="image/anh_giay_nam/1(4).jpg" alt="" width="512" height="384">
-          <img class="w-full h-32 border-2" src="image/anh_giay_nam/1(2).jpg" alt="" width="512" height="384">
-          <img class="w-full h-32 border-2" src="image/anh_giay_nam/1(3).jpg" alt="" width="512" height="384">
+          <img class="w-full h-32" src="/image/anh_giay_nu/2(6).png" alt="" width="512" height="384">
+          <img class="w-full h-32" src="/image/anh_giay_nu/2(8).png" alt="" width="512" height="384">
+          <img class="w-full h-32" src="/image/anh_giay_nu/2(7).png" alt="" width="512" height="384">
         </div>
         <div class="w-2/6 border-2 h-96">2</div>
         <div class="w-2/6 border-2 h-96">
@@ -83,11 +83,7 @@
     <div class="relative w-full h-64 border-2">
       flash sale
     </div>
+    <img class="w-full h-32" src="image/anh_giay_nu/2(6).png" alt="" width="512" height="384">
     @yield('content') 
 </body>
 </html>
-<ul>
-  <li class="w-full h-32 border-2"><img src="image/anh_giay_nam/1(4).jpg" alt=""></li>
-  <li class="w-full h-32 border-2"><img src="image/anh_giay_nam/1(2).jpg" alt=""></li>
-  <li class="w-full h-32 border-2"><img src="image/anh_giay_nam/1(3).jpg" alt=""></li>
-</ul>
