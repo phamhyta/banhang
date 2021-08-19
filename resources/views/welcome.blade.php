@@ -108,10 +108,10 @@
           <img class="w-full h-full float-right" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="" width="512" height="384">
         </div>
         <div>
-            <h1 class="flex-auto text-2xl font-semibold float-right mr-96"> NIKE FAKE</h1>
+            <h1 class="text-3xl font-semibold float-right pr-96"> NIKE FAKE</h1>
             <br>
             <br>
-            <h3 class="flex-auto text-l font-semibold float-right w-1/3 mr-48">
+            <h3 class="text-l font-semibold float-right w-1/3 mr-48">
               Tuy là hàng fake nhưng mà chất lượng không kém hàng real, màu sắc mẫu mã phải nói là chuẩn fake :)))
               <br>
               Sản phẩm đảm bảo 1 lần nhìn qua k thể phát hiện là giả :))
