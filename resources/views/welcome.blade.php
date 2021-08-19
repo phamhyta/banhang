@@ -43,15 +43,15 @@
                   <div class="space-x-2 flex">
                     <label>
                       <img class="w-32 h-32 flex items-center justify-center rounded-lg" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="">
-                      <input class="w-5 h-5 flex items-center justify-center rounded-lg mt-2" type="radio" name="size" value="">
+                      <input class="w-5 h-5 flex items-center justify-center rounded-lg mt-2 ml-12" type="radio" name="size" value="">
                     </label>
                     <label>
                       <img class="w-32 h-32 flex items-center justify-center rounded-lg" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="">
-                      <input class="w-5 h-5 flex items-center justify-center rounded-lg mt-2" type="radio" name="size" value="">
+                      <input class="w-5 h-5 flex items-center justify-center rounded-lg mt-2 ml-12" type="radio" name="size" value="">
                     </label>
                     <label>
                       <img class="w-32 h-32 flex items-center justify-center rounded-lg" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="">
-                      <input class="w-5 h-5 flex items-center justify-center rounded-lg mt-2" type="radio" name="size" value=""> 
+                      <input class="w-5 h-5 flex items-center justify-center rounded-lg mt-2 ml-12" type="radio" name="size" value=""> 
                     </label>
                   </div>
                 </div>
