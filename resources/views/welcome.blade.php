@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="../css/app.css">
     <title>Document</title>
 </head>
-<body>
-    <div class="w-full h-1/4 bg-gray-100 border-2">
-        abc
+<body class="bg-white">
+    <div class="w-full h-14 border-2">
     </div>
-    </div class="w-full h-1066 bg-gray-100 mt-2 ">
-        abc
-    <div>
+    <div class="w-full border-2 h-96">
+    </div>
+    <div class="absolute left-0 top-0 w-1/2 boder-2 h-14">
+
+    </div>
     @yield('content') 
 </body>
 </html>
