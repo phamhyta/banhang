@@ -149,6 +149,7 @@
         </div>
       </div>
     </div>
+    <img class="w-full h-48 flex items-center justify-center rounded-lg p-4" src="../image/anh_giay_nam/1(2).jpg" alt="">
     @yield('content') 
 </body>
 </html>
