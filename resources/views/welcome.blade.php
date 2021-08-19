@@ -11,8 +11,10 @@
     <div class="w-full h-28 border-2">
         menu
     </div>
-    <div class="w-full border-2 h-96">
-        san pham
+    <div class="flex justify-between w-full border-2 h-96">
+        <div class="w-1/6 border-2 h-96">1</div>
+        <div class="w-3/6 border-2 h-96">2</div>
+        <div class="w-2/6 border-2 h-96">3</div>
     </div>
     <div class="relative w-full border-2 h-96">
         <div class="absolute left-0 top-0 w-2/5 border-2 h-48">
@@ -22,11 +24,8 @@
             danh gia
         </div>
     </div>
-    <div class="w-full h-28 border-2">
-        <div class="w-1/4 h-24 p-2px">1</div>
-        <div class="w-1/4 h-24 p-2px">2</div>
-        <div class="w-1/4 h-24 p-2px">3</div>
-        <div class="w-1/4 h-24 p-2px">4</div>
+    <div class="relative w-full h-64 border-2">
+        
     </div>
     @yield('content') 
 </body>
