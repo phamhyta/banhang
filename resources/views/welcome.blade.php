@@ -12,8 +12,14 @@
         menu
     </div>
     <div class="flex justify-between w-full border-2 h-96">
-        <div class="w-1/6 border-2 h-96">1</div>
-        <div class="w-3/6 border-2 h-96">2</div>
+        <div class= "w-1/6 border-2 h-96">
+            <ul>
+                <li class="w-full h-32 border-2"><img src="../../image/anh_giay_nam/1(1).jpg" alt="">x</li>
+                <li class="w-full h-32 border-2"><img src="../../image/anh_giay_nam/1(2).jpg" alt="">y</li>
+                <li class="w-full h-32 border-2"><img src="../../image/anh_giay_nam/1(3).jpg" alt="">z</li>
+            </ul>
+        </div>
+        <div class="w-2/6 border-2 h-96">2</div>
         <div class="w-2/6 border-2 h-96">3</div>
     </div>
     <div class="relative w-full border-2 h-96">
