@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Thu Aug 19 2021 13:52:33 GMT+0700 (Indochina Time)
+------------------------------------------------------
+
+Modified files:
+* resources/views/welcome.blade.php
+
+
+Created files:
+* .autogit/logs/log-19-7-2021-13-22-21.txt
+
+
+Deleted files:
+* picture/huong.jpg
+
+
+Renamed files:
