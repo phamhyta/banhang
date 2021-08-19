@@ -123,10 +123,30 @@
         YOU MIGHT LIKE
       </div>
       <div class="flex p-6">
-        <img class="w-1/4 h-48 flex items-center justify-center rounded-lg p-4" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="">
-        <img class="w-1/4 h-48 flex items-center justify-center rounded-lg p-4" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="">
-        <img class="w-1/4 h-48 flex items-center justify-center rounded-lg p-4" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="">
-        <img class="w-1/4 h-48 flex items-center justify-center rounded-lg p-4" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="">
+        <div class="w-1/4 h-60">
+          <img class="w-full h-48 flex items-center justify-center rounded-lg p-4" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="">
+          <p class="flex justify-center font-semibold">
+            abc 
+          </p>
+        </div>
+        <div class="w-1/4 h-60">
+          <img class="w-full h-48 flex items-center justify-center rounded-lg p-4" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="">
+          <p class="flex justify-center font-semibold">
+            abc 
+          </p>
+        </div>
+        <div class="w-1/4 h-60">
+          <img class="w-full h-48 flex items-center justify-center rounded-lg p-4" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="">
+          <p class="flex justify-center font-semibold">
+            abc 
+          </p>
+        </div>
+        <div class="w-1/4 h-60">
+          <img class="w-full h-48 flex items-center justify-center rounded-lg p-4" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="">
+          <p class="flex justify-center font-semibold">
+            abc 
+          </p>
+        </div>
       </div>
     </div>
     @yield('content') 
