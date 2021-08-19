@@ -89,13 +89,29 @@
               </form>
         </div>
     </div>
-    <div class="relative w-full border-2 h-96">
-        <div class="absolute left-10 top-0 w-1/5 border-2 h-48">
-          <img class="w-full h-full" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="" width="512" height="384">
+    <div class="relative w-full h-96 mt-12 border-t-2 border-gray-300">
+        <div class="absolute left-96 top-0 w-1/5 border-2 h-48 mt-4">
+          <img class="w-full h-full float-left" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="" width="512" height="384">
         </div>
-        <div class="absolute bottom-0 right-10 w-1/5 border-2 h-48">
-          <img class="w-full h-full" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="" width="512" height="384">
+        <p class="ml-6 mt-12">
+          <svg width="30" height="30" fill="currentColor" class="text-violet-600">
+            <path d="M9.05 3.691c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.372 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.539 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.363-1.118l-2.8-2.034c-.784-.57-.381-1.81.587-1.81H7.03a1 1 0 00.95-.69L9.05 3.69z" />
+          </svg>  
+
+          </p>
+        <div class="absolute bottom-0 right-10 w-1/5 border-2 h-48 mb-4">
+          <img class="w-full h-full float-right" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="" width="512" height="384">
         </div>
+        <p>
+          <h1 class="flex-auto text-2xl font-semibold float-right mr-96"> NIKE FAKE</h1>
+          <br>
+          <br>
+          <h3 class="flex-auto text-l font-semibold float-right w-1/3 mr-48">
+            Tuy là hàng fake nhưng mà chất lượng không kém hàng real, màu sắc mẫu mã phải nói là chuẩn fake :)))
+            <br>
+            Sản phẩm đảm bảo 1 lần nhìn qua k thể phát hiện là giả :))
+          </h3>
+        </p>
     </div>
     <div class="relative w-full h-64 border-2">
       flash sale
