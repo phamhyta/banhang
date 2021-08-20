@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/app.css">
+    <link rel="stylesheet" href="{{ asset('css/app.css')}}">
     <title>SHOP_XH</title>
 </head>
 
@@ -166,7 +166,9 @@
             </div>
         </div>
     </div>
-    {{HTML ::image('image/anh_giay_nam/1(2).jpg'.$item->Photo)}}
+    <code></code>
+    <img class="w-full h-48 flex items-center justify-center rounded-lg p-4" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(5).png" alt="">
+</code>
     @yield('content')
 
 </body>
