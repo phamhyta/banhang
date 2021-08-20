@@ -310,25 +310,72 @@
         </div>
         <div class="flex p-6">
             <div class="w-1/4 h-60">
-                <img class="w-5/6 h-56 flex items-center justify-center p-4 border-b-2 border-r-2" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(102).jpg" alt="">
+                <img id="anh1" class="w-5/6 h-56 flex items-center justify-center p-4 border-b-2 border-r-2" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(102).jpg" alt="">
+                <script type="text/javascript">
+                    var anh = document.getElementById("anh1");
+                    var currentPos = 0;
+                    var anhs = ["http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(102).jpg",
+                    "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(275).jpg",
+                    "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(143).jpg",
+                    "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(269).jpg",
+                    "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(283).jpg",];
+                    function volgendefoto()
+                    {
+                        if(++currentPos > 4)
+                            currentPos = 0;
+                        anh.src = anhs[currentPos];
+                    }
+                    setInterval(volgendefoto, 3000);
+                </script>
                 <div class="flex ml-2 mr-6 flex-wrap">
                     <h1 class="flex-auto text-l font-semibold"> <!-- Tên sp -->
-                        NIKE FAKE
+                        <p id="h11">NIKE FAKE</p>
+                        <script type="text/javascript">
+                            var name = document.getElementById("h11");
+                            var currentPos = 0;
+                            var names = [NIKE FAKE, ADIDAS, CONVER, BALEN, PUMA,];
+                            function volgendefoto()
+                            {
+                                if(++currentPos > 4)
+                                    currentPos = 0;
+                                name = names[currentPos];
+                            }
+                            setInterval(volgendefoto, 3000);
+                        </script>
                     </h1>
-                    <div class="text-l font-semibold text-gray-500"> <!-- Giá sau khi giảm giá -->
+                    <div id="gia1" class="text-l font-semibold text-gray-500"> <!-- Giá sau khi giảm giá -->
                         $90.00
                     </div>
-                    <div class="text-sm font-semibold text-gray-500 pl-2 line-through mr-9"> <!-- Giá gốc -->
+                    <div id="giag1" class="text-sm font-semibold text-gray-500 pl-2 line-through mr-9"> <!-- Giá gốc -->
                         $110.00
                     </div>
-                    <div class="w-full text-sm font-medium text-gray-700"> <!-- Mô tả ngắn -->
+                    <div id="mt1" class="w-full text-sm font-medium text-gray-700"> <!-- Mô tả ngắn -->
                         Sản phẩm không chính hãng
                     </div>
                 </div>
+                <!--
+                <script type="text/javascript">
+                    var name = document.getElementById("h11");
+                    var gia = document.getElementById("gia1");
+                    var giag = document.getElementById("giag1");
+                    var mt = document.getElementById("mt1");
+                    var currentPos = 0;
+                    var names = [NIKE FAKE, ADIDAS, CONVER, BALEN, PUMA,];
+                    var gias = [$90.00, $120.00, $120.00, $160.00, $260.00];
+                    var giags = [$110.00, $200.00, $160.00, $210.00, $560.00];
+                    var mts = [Sản phẩm không chính hãng, Sản phẩm chất lượng cao, Hàng thượng hải, số lượng có hạn, Sản xuất thủ công, Giảm giá duy nhất ngày hôm nay,];
+                    function volgendefoto()
+                    {
+                        if(++currentPos > 4)
+                            currentPos = 0;
+                        name = names[currentPos];
+                    }
+                    setInterval(volgendefoto, 3000);
+                </script> -->
             </div>
 
             <div class="w-1/4 h-60">
-                <img class="w-5/6 h-56 flex items-center justify-center p-4 border-b-2 border-r-2" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(102).jpg" alt="">
+                <img class="w-5/6 h-56 flex items-center justify-center p-4 border-b-2 border-r-2" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(275).jpg" alt="">
                 <div class="flex ml-2 mr-6 flex-wrap">
                     <h1 class="flex-auto text-l font-semibold"> <!-- Tên sp -->
                         ADIDAS
