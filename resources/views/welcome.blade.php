@@ -17,14 +17,14 @@
     <div class="flex justify-between w-full h-96">
         <div class="w-1/6 h-96">
             <div class="pl-2">
-                <img class="w-full h-28 mt-2" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="" width="512" height="384">
-                <img class="w-full h-28 mt-2" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="" width="512" height="384">
-                <img class="w-full h-28 mt-2" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="" width="512" height="384">
+                <img class="w-2/3 h-28 mt-6" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(2).png" alt="" width="512" height="384">
+                <img class="w-2/3 h-28 mt-2" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(4).png" alt="" width="512" height="384">
+                <img class="w-2/3 h-28 mt-2" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(9).png" alt="" width="512" height="384">
             </div>
         </div>
 
         <div class="w-2/6 h-96">
-            <img class="w-full h-80 p-6 mt-6" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="" width="512" height="384">
+            <img class="w-full h-full p-2 mt-2" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(249).jpg" alt="" width="512" height="384">
         </div>
 
         <div class="w-3/6 h-96 pl-8 border-l-2">
@@ -49,15 +49,15 @@
                     <div class="flex-none text-sm font-medium text-gray-700 mt-2 mr-2 ">Color</div>
                     <div class="space-x-2 flex">
                         <label>
-                      <img class="w-32 h-32 flex items-center justify-center rounded-lg" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="">
+                      <img class="w-32 h-32 flex items-center justify-center rounded-lg" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(275).jpg" alt="">
                       <input class="w-5 h-5 flex items-center justify-center rounded-lg mt-2 ml-12" type="radio" name="size" value="">
                     </label>
                         <label>
-                      <img class="w-32 h-32 flex items-center justify-center rounded-lg" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="">
+                      <img class="w-32 h-32 flex items-center justify-center rounded-lg" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(251).jpg" alt="">
                       <input class="w-5 h-5 flex items-center justify-center rounded-lg mt-2 ml-12" type="radio" name="size" value="">
                     </label>
                         <label>
-                      <img class="w-32 h-32 flex items-center justify-center rounded-lg" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="">
+                      <img class="w-32 h-32 flex items-center justify-center rounded-lg" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(261).jpg" alt="">
                       <input class="w-5 h-5 flex items-center justify-center rounded-lg mt-2 ml-12" type="radio" name="size" value=""> 
                     </label>
                     </div>
@@ -100,8 +100,8 @@
         </div>
     </div>
 
-    <div class="relative w-full h-96 mt-6 border-t-2 border-gray-300">
-        <div class="absolute left-96 top-0 w-1/5 border-2 h-48 mt-4">
+    <div class="relative w-full h-96 mt-6 border-t-2">
+        <div class="absolute left-96 top-0 w-1/5 h-48 mt-4">
             <img class="w-full h-full float-left" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="" width="512" height="384">
         </div>
 
@@ -117,7 +117,7 @@
             <div class="text-base font-normal mx-2">·</div>
         </div>
 
-        <div class="absolute bottom-0 right-10 w-1/5 border-2 h-48 mb-4">
+        <div class="absolute bottom-0 right-10 w-1/5 h-48 mb-4">
             <img class="w-full h-full float-right" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="" width="512" height="384">
         </div>
 
@@ -132,45 +132,41 @@
         </div>
 
     </div>
-    <div class="relative w-full h-64 border-t-2">
-        <div class="flex justify-center text-xl font-semibold">
+    <div class="relative w-full h-96">
+        <div class="flex justify-center text-xl font-semibold border-b-2">
             YOU MIGHT LIKE
         </div>
         <div class="flex p-6">
-            <div class="w-1/4 h-60">
-                <img class="w-full h-48 flex items-center justify-center rounded-lg p-4" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="">
-                <p class="flex justify-center font-semibold">
+            <div class="w-1/4 h-68">
+                <img class="w-full h-56 flex items-center justify-center p-4 border-b-2 border-r-2" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(102).jpg" alt="">
+                <p class="flex justify-center font-semibold border-b-2 border-r-2">
                     abc
                 </p>
             </div>
 
-            <div class="w-1/4 h-60">
-                <img class="w-full h-48 flex items-center justify-center rounded-lg p-4" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="">
-                <p class="flex justify-center font-semibold">
+            <div class="w-1/4 h-68">
+                <img class="w-full h-56 flex items-center justify-center p-4 border-b-2 border-r-2" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(143).jpg" alt="">
+                <p class="flex justify-center font-semibold border-b-2 border-r-2">
                     abc
                 </p>
             </div>
 
-            <div class="w-1/4 h-60">
-                <img class="w-full h-48 flex items-center justify-center rounded-lg p-4" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="">
-                <p class="flex justify-center font-semibold">
+            <div class="w-1/4 h-68">
+                <img class="w-full h-56 flex items-center justify-center p-4 border-b-2 border-r-2" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(269).jpg" alt="">
+                <p class="flex justify-center font-semibold border-b-2 border-r-2">
                     abc
                 </p>
             </div>
 
-            <div class="w-1/4 h-60">
-                <img class="w-full h-48 flex items-center justify-center rounded-lg p-4" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="">
-                <p class="flex justify-center font-semibold">
+            <div class="w-1/4 h-68">
+                <img class="w-full h-56 flex items-center justify-center p-4 border-b-2" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(283).jpg" alt="">
+                <p class="flex justify-center font-semibold border-b-2 ">
                     abc
                 </p>
             </div>
         </div>
     </div>
-    <code></code>
-    <img class="w-full h-48 flex items-center justify-center rounded-lg p-4" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(5).png" alt="">
-</code>
     @yield('content')
-
 </body>
 
 </html>
