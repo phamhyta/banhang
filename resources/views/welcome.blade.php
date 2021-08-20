@@ -106,16 +106,24 @@
                     <div class="space-x-2 flex">
                         <label>
                       <img class="w-32 h-32 flex items-center justify-center rounded-lg" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(275).jpg" alt="">
-                      <input class="w-5 h-5 flex items-center justify-center rounded-lg mt-2 ml-12" type="radio" name="size" value="">
+                      <input class="w-5 h-5 flex items-center justify-center rounded-lg mt-2 ml-12" type="radio" name="color" value="">
+                      <p class="flex justify-center mr-2">Cam</p>
                     </label>
                         <label>
                       <img class="w-32 h-32 flex items-center justify-center rounded-lg" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(251).jpg" alt="">
-                      <input class="w-5 h-5 flex items-center justify-center rounded-lg mt-2 ml-12" type="radio" name="size" value="">
+                      <input class="w-5 h-5 flex items-center justify-center rounded-lg mt-2 ml-12" type="radio" name="color" value="">
+                      <p class="flex justify-center mr-2">Đen</p>
                     </label>
                         <label>
                       <img class="w-32 h-32 flex items-center justify-center rounded-lg" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(261).jpg" alt="">
-                      <input class="w-5 h-5 flex items-center justify-center rounded-lg mt-2 ml-12" type="radio" name="size" value=""> 
+                      <input class="w-5 h-5 flex items-center justify-center rounded-lg mt-2 ml-12" type="radio" name="color" value=""> 
+                      <p class="flex justify-center mr-2">Trắng</p>
                     </label>
+                    <label>
+                        <img class="w-32 h-32 flex items-center justify-center rounded-lg" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(263).jpg" alt="">
+                        <input class="w-5 h-5 flex items-center justify-center rounded-lg mt-2 ml-12" type="radio" name="color" value=""> 
+                        <p class="flex justify-center mr-2">Vàng</p>
+                      </label>
                     </div>
                 </div>
 
@@ -157,11 +165,11 @@
     </div>
 
     <div class="relative w-full h-96 mt-6 border-t-2">
-        <div class="absolute left-96 top-0 w-1/5 h-48 mt-4">
-            <img class="w-full h-full float-left" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(23).png" alt="" width="512" height="384">
-        </div>
-
-        <div class="flex items-center text-sm font-medium my-5 sm:mt-2 sm:mb-4">
+        <ul>
+        <li class="absolute left-96 top-0 w-1/5 h-48 mt-4 border-2">
+            <img class="w-5/6 h-full float-left" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(23).png" alt="" width="512" height="384">
+        </li>
+        <li class="flex items-center text-sm font-medium my-5 sm:mt-2 sm:mb-4 w-1/3 border-2">
             <div class="flex-none text-sm font-medium text-gray-700 mr-2">Xếp hạng và đánh giá</div>
             <svg width="20" height="20" fill="currentColor" class="text-violet-600">
             <path d="M9.05 3.691c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.372 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.539 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.363-1.118l-2.8-2.034c-.784-.57-.381-1.81.587-1.81H7.03a1 1 0 00.95-.69L9.05 3.69z" />
@@ -171,22 +179,22 @@
                 <span class="sm:hidden md:inline">(128)</span>
             </div>
             <div class="text-base font-normal mx-2">·</div>
-        </div>
+        </li>
 
-        <div class="absolute bottom-0 right-10 w-1/5 h-48 mb-4">
-            <img class="w-full h-full float-right" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(24).png" alt="" width="512" height="384">
-        </div>
+        <li class="absolute bottom-0 right-10 w-1/5 h-48 mb-4 border-2">
+            <img class="w-5/6 h-full float-right" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(24).png" alt="" width="512" height="384">
+        </li>
 
-        <div>
-            <h1 class="text-3xl font-semibold float-right pr-96"> NIKE FAKE</h1>
+        <li class="border-2 w-1/3 float-right mr-48">
+            <h1 class="flex justify-center text-3xl font-semibold float-right"> NIKE FAKE</h1>
             <br>
             <br>
             <h3 class="text-l font-semibold float-right w-1/3 mr-48">
                 Tuy là hàng fake nhưng mà chất lượng không kém hàng real, màu sắc mẫu mã phải nói là chuẩn fake :)))
                 <br> Sản phẩm đảm bảo 1 lần nhìn qua k thể phát hiện là giả :))
             </h3>
-        </div>
-
+        </li>
+        </ul>
     </div>
     <div class="relative w-full h-96">
         <div class="flex justify-center text-xl font-semibold border-b-2">
