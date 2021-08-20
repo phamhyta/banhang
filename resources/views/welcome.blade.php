@@ -11,11 +11,11 @@
 
 <body class="bg-gradient-to-t from-blue-300 via-blue-100 to-blue-200">
      <!-- Menu -->
-    <div class="w-full h-36 border-2">
+    <div class="w-full h-36 border-b-2 border-gray-400">
         menu
     </div>
     <!-- Sản phẩm chi tiết -->
-    <div class="flex justify-between w-full h-96">
+    <div class="flex justify-between w-full h-96 mt-4">
         <!--!!-->
         <div class="w-1/6 h-96">
             <!-- 3 ảnh (để chạy) mẫu khác của sản phẩm -->
@@ -188,23 +188,23 @@
             <br>
             <!-- Phần đánh giá khách hàng -->
             <div class="flex text-sm font-medium text-gray-700 w-2/3">
-                20/07/2020
+                20/07/2020 <!-- Ngày đánh giá -->
                 <div class="ml-32 flex">
                     <svg width="20" height="20" fill="currentColor" class="text-violet-600 mr-0">
                         <path d="M9.05 3.691c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.372 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.539 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.363-1.118l-2.8-2.034c-.784-.57-.381-1.81.587-1.81H7.03a1 1 0 00.95-.69L9.05 3.69z" />
                     </svg>
                     <div class="ml-1">
-                        <span class="text-black">4.5</span>
+                        <span class="text-black">4.5</span> <!-- Vote ../5 -->
                     </div>
                 </div>
             </div>
-            <div class="col-start-1 row-start-3 space-y-3 pr-4">
+            <div class="col-start-1 row-start-3 space-y-3 pr-4 pt-2"> <!-- Thông tin người mua -->
                 <p class="flex items-center text-black text-sm font-medium">
                   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdBWMw05M04BIRa7SIuc9f4by2Sa0VR7ZcFw&usqp=CAU" alt="" class="w-6 h-6 rounded-full mr-2 bg-gray-100">
                   Trần Xuân Hương
                 </p>
-                </div>
-            <p class="border-b-2 border-gray-500 w-2/3">Sản Phẩm dùng tốt</p>
+            </div>
+            <p class="border-b-2 border-gray-500 w-2/3">Sản Phẩm dùng tốt</p> <!-- Comment -->
             <div class="flex text-sm font-medium text-gray-700 w-2/3">
                 26/03/2021
                 <div class="ml-32 flex">
@@ -215,6 +215,12 @@
                         <span class="text-black">4.0</span>
                     </div>
                 </div>
+            </div>
+            <div class="col-start-1 row-start-3 space-y-3 pr-4 pt-2">
+                <p class="flex items-center text-black text-sm font-medium">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdBWMw05M04BIRa7SIuc9f4by2Sa0VR7ZcFw&usqp=CAU" alt="" class="w-6 h-6 rounded-full mr-2 bg-gray-100">
+                  Lê Hưng
+                </p>
             </div>
             <p class="border-b-2 border-gray-500 w-2/3">Sản Phẩm dùng tạm được</p>
             <div class="flex text-sm font-medium text-gray-700 w-2/3">
@@ -228,6 +234,12 @@
                     </div>
                 </div>
             </div>
+            <div class="col-start-1 row-start-3 space-y-3 pr-4 pt-2">
+                <p class="flex items-center text-black text-sm font-medium">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdBWMw05M04BIRa7SIuc9f4by2Sa0VR7ZcFw&usqp=CAU" alt="" class="w-6 h-6 rounded-full mr-2 bg-gray-100">
+                  Lê Minh Tiến
+                </p>
+            </div>
             <p class="border-b-2 border-gray-500 w-2/3">Amazingg goodd chóp</p>
             <div class="flex text-sm font-medium text-gray-700 w-2/3">
                 13/05/2021
@@ -240,15 +252,21 @@
                     </div>
                 </div>
             </div>
+            <div class="col-start-1 row-start-3 space-y-3 pr-4 pt-2">
+                <p class="flex items-center text-black text-sm font-medium">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdBWMw05M04BIRa7SIuc9f4by2Sa0VR7ZcFw&usqp=CAU" alt="" class="w-6 h-6 rounded-full mr-2 bg-gray-100">
+                  Lê Ngọc Văn
+                </p>
+            </div>
             <p class="">Sản phẩm nên mua</p>
         </div>
         <div class="w-2/3 h-full">
-            <div class="flex h-1/2 w-full border-2">
+            <div class="flex h-1/2 w-full">
                 <div class="h-full w-1/3"> <!-- Để ảnh sp -->
                     <img class="w-5/6 h-full float-right" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(23).png" alt="" width="512" height="384">
                 </div>
                 <!-- Phần giới thiệu -->
-                <div class="ml-4 mr-6 h-full w-2/3 border-2">
+                <div class="ml-4 mr-6 h-full w-2/3">
                     <div>
                         <h1 class="text-3xl font-semibold float-left"> NIKE FAKE</h1>
                     </div>
@@ -260,10 +278,24 @@
                     </div>
                 </div>
             </div>
-            <div class="flex h-1/2 w-full border-2">
+            <div class="flex h-1/2 w-full">
                 <!-- Phần thông số sản phẩm -->
                 <div class="h-full w-2/3">
-                    abc
+                    <div class="h-1/6 w-1/3 text-xl font-medium text-gray-700 ml-48 border-b-2 text-center border-gray-500">
+                        Thông số
+                    </div>
+                    <div class="flex h-4/6 w-full mt-6">
+                        <div class="h-full w-1/2 ml-4 list-inside">
+                            <li>Dánh regular fit</li>
+                            <li>Có dây buộc</li>
+                            <li>Thân bằng chất liệu tổng hợp</li>
+                        </div>
+                        <div class="h-full w-1/2 ml-4 list-inside">
+                            <li>Đế ngoài bằng cao su</li>
+                            <li>Primegreen</li>
+                            <li>Mã sản phẩm: FX0511</li>
+                        </div>
+                    </div>
                 </div>
                 <div class="h-full w-1/3"> <!-- Để ảnh sp -->
                     <img class="w-5/6 h-full float-right mr-4" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(24).png" alt="" width="512" height="384">
