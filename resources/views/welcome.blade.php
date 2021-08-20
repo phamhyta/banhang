@@ -9,7 +9,7 @@
     <title>SHOP_XH</title>
 </head>
 
-<body class="bg-gradient-to-t from-blue-300 via-blue-100 to-blue-200">
+<body class="bg-gradient-to-t from-blue-200 via-blue-100 to-blue-200">
      <!-- Menu -->
     <div class="w-full h-36 border-b-2 border-gray-300">
         menu
@@ -169,7 +169,7 @@
     </div>
     <!-- Phần đánh giá, mô tả -->
     <div class="flex justify-between w-full h-96 mt-12 border-t-2 border-gray-300">
-        <div class="w-1/3 h-full mt-6 ml-24">
+        <div class="w-1/3 h-full mt-6 ml-24 border-r-2 border-gray-300">
             <!-- Phần đánh giá -->
             <div class="flex mr-2">
                 <div class="text-xl font-medium text-gray-700 w-2/3">
@@ -311,7 +311,7 @@
         <div class="flex p-6">
             <div class="w-1/4 h-60">
                 <img id="anh1" class="w-5/6 h-56 flex items-center justify-center p-4 border-b-2 border-r-2" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(102).jpg" alt="">
-                <script type="text/javascript">
+                <!-- <script type="text/javascript">
                     var anh = document.getElementById("anh1");
                     var currentPos = 0;
                     var anhs = ["http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(102).jpg",
@@ -326,11 +326,11 @@
                         anh.src = anhs[currentPos];
                     }
                     setInterval(volgendefoto, 3000);
-                </script>
+                </script> -->
                 <div class="flex ml-2 mr-6 flex-wrap">
                     <h1 class="flex-auto text-l font-semibold"> <!-- Tên sp -->
                         <p id="h11">NIKE FAKE</p>
-                        <script type="text/javascript">
+                        <!-- <script type="text/javascript">
                             var name = document.getElementById("h11");
                             var currentPos = 0;
                             var names = [NIKE FAKE, ADIDAS, CONVER, BALEN, PUMA,];
@@ -341,7 +341,7 @@
                                 name = names[currentPos];
                             }
                             setInterval(volgendefoto, 3000);
-                        </script>
+                        </script> -->
                     </h1>
                     <div id="gia1" class="text-l font-semibold text-gray-500"> <!-- Giá sau khi giảm giá -->
                         $90.00
@@ -349,8 +349,18 @@
                     <div id="giag1" class="text-sm font-semibold text-gray-500 pl-2 line-through mr-9"> <!-- Giá gốc -->
                         $110.00
                     </div>
-                    <div id="mt1" class="w-full text-sm font-medium text-gray-700"> <!-- Mô tả ngắn -->
-                        Sản phẩm không chính hãng
+                    <div class="flex">
+                        <div id="mt1" class="w-2/3 text-sm font-medium text-gray-700"> <!-- Mô tả ngắn -->
+                            Sản phẩm không chính hãng
+                        </div>
+                        <div class="flex w-1/3">
+                            <svg width="20" height="20" fill="currentColor" class="text-violet-600">
+                                <path d="M9.05 3.691c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.372 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.539 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.363-1.118l-2.8-2.034c-.784-.57-.381-1.81.587-1.81H7.03a1 1 0 00.95-.69L9.05 3.69z" />
+                            </svg>
+                            <div class="ml-1">
+                                <span class="text-black">4.94</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!--
@@ -386,8 +396,18 @@
                     <div class="text-sm font-semibold text-gray-500 pl-2 line-through mr-9"> <!-- Giá gốc -->
                         $200.00
                     </div>
-                    <div class="w-full text-sm font-medium text-gray-700"> <!-- Mô tả ngắn -->
-                        Sản phẩm chất lượng cao
+                    <div class="flex">
+                        <div id="mt1" class="w-2/3 text-sm font-medium text-gray-700"> <!-- Mô tả ngắn -->
+                            Sản phẩm chất lương cao
+                        </div>
+                        <div class="flex w-1/3">
+                            <svg width="20" height="20" fill="currentColor" class="text-violet-600">
+                                <path d="M9.05 3.691c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.372 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.539 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.363-1.118l-2.8-2.034c-.784-.57-.381-1.81.587-1.81H7.03a1 1 0 00.95-.69L9.05 3.69z" />
+                            </svg>
+                            <div class="ml-1">
+                                <span class="text-black">4.75</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -404,8 +424,18 @@
                     <div class="text-sm font-semibold text-gray-500 pl-2 line-through mr-9"> <!-- Giá gốc -->
                         $160.00
                     </div>
-                    <div class="w-full text-sm font-medium text-gray-700"> <!-- Mô tả ngắn -->
-                        Hàng thượng hải, số lượng có hạn
+                    <div class="flex">
+                        <div id="mt1" class="w-2/3 text-sm font-medium text-gray-700"> <!-- Mô tả ngắn -->
+                            Hàng thượng hải, số lượng có hạn
+                        </div>
+                        <div class="flex w-1/3">
+                            <svg width="20" height="20" fill="currentColor" class="text-violet-600">
+                                <path d="M9.05 3.691c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.372 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.539 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.363-1.118l-2.8-2.034c-.784-.57-.381-1.81.587-1.81H7.03a1 1 0 00.95-.69L9.05 3.69z" />
+                            </svg>
+                            <div class="ml-1">
+                                <span class="text-black">4.76</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -422,8 +452,18 @@
                     <div class="text-sm font-semibold text-gray-500 pl-2 line-through mr-9"> <!-- Giá gốc -->
                         $210.00
                     </div>
-                    <div class="w-full text-sm font-medium text-gray-700"> <!-- Mô tả ngắn -->
-                        Sản xuất thủ công
+                    <div class="flex">
+                        <div id="mt1" class="w-2/3 text-sm font-medium text-gray-700"> <!-- Mô tả ngắn -->
+                            Sản xuất thủ công
+                        </div>
+                        <div class="flex w-1/3">
+                            <svg width="20" height="20" fill="currentColor" class="text-violet-600">
+                                <path d="M9.05 3.691c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.372 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.539 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.363-1.118l-2.8-2.034c-.784-.57-.381-1.81.587-1.81H7.03a1 1 0 00.95-.69L9.05 3.69z" />
+                            </svg>
+                            <div class="ml-1">
+                                <span class="text-black">4.32</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -440,13 +480,24 @@
                     <div class="text-sm font-semibold text-gray-500 pl-2 line-through mr-9"> <!-- Giá gốc -->
                         $540.00
                     </div>
-                    <div class="w-full text-sm font-medium text-gray-700"> <!-- Mô tả ngắn -->
-                        Giảm giá duy nhất ngày hôm nay
+                    <div class="flex">
+                        <div id="mt1" class="w-2/3 text-sm font-medium text-gray-700"> <!-- Mô tả ngắn -->
+                            Giảm giá duy nhất ngày hôm nay
+                        </div>
+                        <div class="flex w-1/3">
+                            <svg width="20" height="20" fill="currentColor" class="text-violet-600">
+                                <path d="M9.05 3.691c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.372 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.539 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.363-1.118l-2.8-2.034c-.784-.57-.381-1.81.587-1.81H7.03a1 1 0 00.95-.69L9.05 3.69z" />
+                            </svg>
+                            <div class="ml-1">
+                                <span class="text-black">4.47</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="h-64 w-full border-2"></div>
     @yield('content')
 </body>
 
