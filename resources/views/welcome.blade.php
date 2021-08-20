@@ -9,17 +9,73 @@
     <title>SHOP_XH</title>
 </head>
 
-<body class="bg-gradient-to-t from-blue-300 via-blue-50 to-blue-200">
-    <div class="w-full h-28 border-2">
+<body class="bg-gradient-to-t from-blue-300 via-gray-300 to-blue-200">
+    <div class="w-full h-36 border-2">
         menu
     </div>
 
     <div class="flex justify-between w-full h-96">
         <div class="w-1/6 h-96">
             <div class="pl-2">
-                <img class="w-2/3 h-28 mt-6" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(2).png" alt="" width="512" height="384">
-                <img class="w-2/3 h-28 mt-2" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(4).png" alt="" width="512" height="384">
-                <img class="w-2/3 h-28 mt-2" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(9).png" alt="" width="512" height="384">
+                <div>
+                    <img id="image1" class="w-2/3 h-28 mt-4 ml-6" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(2).png" alt="" width="512" height="384">
+                    <script type="text/javascript">
+                        var image = document.getElementById("image1");
+                        var currentPos = 0;
+                        var images = ["http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(2).png",
+                        "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(4).png",
+                        "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(5).png",
+                        "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(3).png",
+                        "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(6).png",];
+                        function volgendefoto()
+                        {
+                            if(++currentPos > 4)
+                                currentPos = 0;
+                            image.src = images[currentPos];
+                        }
+                        setInterval(volgendefoto, 3000);
+                    </script>
+                </div>
+
+                <div>
+                    <img id="image2" class="w-2/3 h-28 mt-4 ml-6" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(4).png" alt="" width="512" height="384">
+                    <script type="text/javascript">
+                        var image = document.getElementById("image2");
+                        var currentPos = 0;
+                        var images = ["http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(4).png",
+                        "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(7).png",
+                        "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(8).png",
+                        "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(9).png",
+                        "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(10).png",];
+                        function volgendefoto()
+                        {
+                            if(++currentPos > 4)
+                                currentPos = 0;
+                            image.src = images[currentPos];
+                        }
+                        setInterval(volgendefoto, 3000);
+                    </script>
+                </div>
+
+                 <div>               
+                    <img id="image3" class="w-2/3 h-28 mt-4 ml-6" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(9).png" alt="" width="512" height="384">
+                    <script type="text/javascript">
+                        var image = document.getElementById("image3");
+                        var currentPos = 0;
+                        var images = ["http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(17).png",
+                        "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(11).png",
+                        "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(23).png",
+                        "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(24).png",
+                        "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(9).png",];
+                        function volgendefoto()
+                        {
+                            if(++currentPos > 4)
+                                currentPos = 0;
+                            image.src = images[currentPos];
+                        }
+                        setInterval(volgendefoto, 3000);
+                    </script>
+                </div>
             </div>
         </div>
 
@@ -87,9 +143,9 @@
                 <div class="flex space-x-3 mb-4 text-sm font-medium">
                     <div class="flex-auto flex space-x-10 ml-4 mr-4">
                         <button class="w-1/2 flex items-center justify-center rounded-md bg-black text-white" type="submit">Buy now</button>
-                        <button class="w-1/2 flex items-center justify-center rounded-md border border-gray-300" type="button">Add to bag</button>
+                        <button class="w-1/2 flex items-center justify-center rounded-md border border-gray-900" type="button">Add to bag</button>
                     </div>
-                    <button class="flex-none flex items-center justify-center w-9 h-9 rounded-md text-red-500 border border-pink-300" type="button" aria-label="like">
+                    <button class="flex-none flex items-center justify-center w-9 h-9 rounded-md text-red-500 border border-pink-900" type="button" aria-label="like">
                     <svg width="20" height="20" fill="currentColor">
                       <path fill-rule="evenodd" clip-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" />
                     </svg>
@@ -138,29 +194,29 @@
         </div>
         <div class="flex p-6">
             <div class="w-1/4 h-68">
-                <img class="w-full h-56 flex items-center justify-center p-4 border-b-2 border-r-2" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(102).jpg" alt="">
-                <p class="flex justify-center font-semibold border-b-2 border-r-2">
+                <img class="w-5/6 h-56 flex items-center justify-center p-4 border-b-2 border-r-2" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(102).jpg" alt="">
+                <p class="flex justify-center font-semibold border-b-2">
                     abc
                 </p>
             </div>
 
             <div class="w-1/4 h-68">
-                <img class="w-full h-56 flex items-center justify-center p-4 border-b-2 border-r-2" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(143).jpg" alt="">
-                <p class="flex justify-center font-semibold border-b-2 border-r-2">
+                <img class="w-5/6 h-56 flex items-center justify-center p-4 border-b-2 border-r-2" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(143).jpg" alt="">
+                <p class="flex justify-center font-semibold border-b-2">
                     abc
                 </p>
             </div>
 
             <div class="w-1/4 h-68">
-                <img class="w-full h-56 flex items-center justify-center p-4 border-b-2 border-r-2" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(269).jpg" alt="">
-                <p class="flex justify-center font-semibold border-b-2 border-r-2">
+                <img class="w-5/6 h-56 flex items-center justify-center p-4 border-b-2 border-r-2" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(269).jpg" alt="">
+                <p class="flex justify-center font-semibold border-b-2">
                     abc
                 </p>
             </div>
 
             <div class="w-1/4 h-68">
-                <img class="w-full h-56 flex items-center justify-center p-4 border-b-2" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(283).jpg" alt="">
-                <p class="flex justify-center font-semibold border-b-2 ">
+                <img class="w-5/6 h-56 flex items-center justify-center p-4 border-b-2 border-r-2" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(283).jpg" alt="">
+                <p class="flex justify-center font-semibold border-b-2">
                     abc
                 </p>
             </div>
