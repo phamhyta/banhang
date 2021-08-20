@@ -10,7 +10,6 @@
 </head>
 
 <body class="bg-gradient-to-t from-blue-300 via-blue-50 to-blue-200">
-<code>
     <div class="w-full h-28 border-2">
         menu
     </div>
@@ -167,8 +166,7 @@
             </div>
         </div>
     </div>
-    <img class="w-full h-48 flex items-center justify-center rounded-lg p-4" src="image\anh_giay_nam\1(2).jpg" alt="">
-</code>
+    {{HTML ::image('image/anh_giay_nam/1(2).jpg'.$item->Photo)}}
     @yield('content')
 
 </body>
