@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Fri Aug 20 2021 16:59:05 GMT+0700 (Indochina Time)
+------------------------------------------------------
+
+Modified files:
+* resources/views/welcome.blade.php
+
+
+Created files:
+* .autogit/logs/log-20-7-2021-16-28-50.txt
+
+
+Deleted files:
+
+
+Renamed files:
