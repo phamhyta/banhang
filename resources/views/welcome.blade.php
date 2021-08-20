@@ -11,7 +11,7 @@
 
 <body class="bg-gradient-to-t from-blue-300 via-blue-100 to-blue-200">
      <!-- Menu -->
-    <div class="w-full h-36 border-b-2 border-gray-400">
+    <div class="w-full h-36 border-b-2 border-gray-300">
         menu
     </div>
     <!-- Sản phẩm chi tiết -->
@@ -168,7 +168,7 @@
         </div>
     </div>
     <!-- Phần đánh giá, mô tả -->
-    <div class="flex justify-between w-full h-96 mt-6 border-t-2">
+    <div class="flex justify-between w-full h-96 mt-12 border-t-2 border-gray-300">
         <div class="w-1/3 h-full mt-6 ml-24">
             <!-- Phần đánh giá -->
             <div class="flex mr-2">
@@ -260,7 +260,7 @@
             </div>
             <p class="">Sản phẩm nên mua</p>
         </div>
-        <div class="w-2/3 h-full">
+        <div class="w-2/3 h-full mt-4">
             <div class="flex h-1/2 w-full">
                 <div class="h-full w-1/3"> <!-- Để ảnh sp -->
                     <img class="w-5/6 h-full float-right" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(23).png" alt="" width="512" height="384">
@@ -280,7 +280,7 @@
             </div>
             <div class="flex h-1/2 w-full">
                 <!-- Phần thông số sản phẩm -->
-                <div class="h-full w-2/3">
+                <div class="h-full w-2/3 ml-20">
                     <div class="h-1/6 w-1/3 text-xl font-medium text-gray-700 ml-48 border-b-2 text-center border-gray-500">
                         Thông số
                     </div>
@@ -298,43 +298,105 @@
                     </div>
                 </div>
                 <div class="h-full w-1/3"> <!-- Để ảnh sp -->
-                    <img class="w-5/6 h-full float-right mr-4" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(24).png" alt="" width="512" height="384">
+                    <img class="w-5/6 h-full float-right mr-12" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(24).png" alt="" width="512" height="384">
                 </div>
             </div>
         </div>
     </div>
     <!-- Đề xuất mua sắm -->
-    <div class="relative w-full h-96">
+    <div class="relative w-full h-96 mt-12">
         <div class="flex justify-center text-xl font-semibold border-b-2">
             YOU MIGHT LIKE
         </div>
         <div class="flex p-6">
-            <div class="w-1/4 h-68">
+            <div class="w-1/4 h-60">
                 <img class="w-5/6 h-56 flex items-center justify-center p-4 border-b-2 border-r-2" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(102).jpg" alt="">
-                <p class="flex justify-center font-semibold border-b-2">
-                    abc
-                </p>
+                <div class="flex ml-2 mr-6 flex-wrap">
+                    <h1 class="flex-auto text-l font-semibold"> <!-- Tên sp -->
+                        NIKE FAKE
+                    </h1>
+                    <div class="text-l font-semibold text-gray-500"> <!-- Giá sau khi giảm giá -->
+                        $90.00
+                    </div>
+                    <div class="text-sm font-semibold text-gray-500 pl-2 line-through mr-9"> <!-- Giá gốc -->
+                        $110.00
+                    </div>
+                    <div class="w-full text-sm font-medium text-gray-700"> <!-- Mô tả ngắn -->
+                        Sản phẩm không chính hãng
+                    </div>
+                </div>
             </div>
 
-            <div class="w-1/4 h-68">
+            <div class="w-1/4 h-60">
+                <img class="w-5/6 h-56 flex items-center justify-center p-4 border-b-2 border-r-2" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(102).jpg" alt="">
+                <div class="flex ml-2 mr-6 flex-wrap">
+                    <h1 class="flex-auto text-l font-semibold"> <!-- Tên sp -->
+                        ADIDAS
+                    </h1>
+                    <div class="text-l font-semibold text-gray-500"> <!-- Giá sau khi giảm giá -->
+                        $120.00
+                    </div>
+                    <div class="text-sm font-semibold text-gray-500 pl-2 line-through mr-9"> <!-- Giá gốc -->
+                        $200.00
+                    </div>
+                    <div class="w-full text-sm font-medium text-gray-700"> <!-- Mô tả ngắn -->
+                        Sản phẩm chất lượng cao
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-1/4 h-60">
                 <img class="w-5/6 h-56 flex items-center justify-center p-4 border-b-2 border-r-2" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(143).jpg" alt="">
-                <p class="flex justify-center font-semibold border-b-2">
-                    abc
-                </p>
+                <div class="flex ml-2 mr-6 flex-wrap">
+                    <h1 class="flex-auto text-l font-semibold"> <!-- Tên sp -->
+                        CONVER
+                    </h1>
+                    <div class="text-l font-semibold text-gray-500"> <!-- Giá sau khi giảm giá -->
+                        $120.00
+                    </div>
+                    <div class="text-sm font-semibold text-gray-500 pl-2 line-through mr-9"> <!-- Giá gốc -->
+                        $160.00
+                    </div>
+                    <div class="w-full text-sm font-medium text-gray-700"> <!-- Mô tả ngắn -->
+                        Hàng thượng hải, số lượng có hạn
+                    </div>
+                </div>
             </div>
 
-            <div class="w-1/4 h-68">
+            <div class="w-1/4 h-60">
                 <img class="w-5/6 h-56 flex items-center justify-center p-4 border-b-2 border-r-2" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(269).jpg" alt="">
-                <p class="flex justify-center font-semibold border-b-2">
-                    abc
-                </p>
+                <div class="flex ml-2 mr-6 flex-wrap">
+                    <h1 class="flex-auto text-l font-semibold"> <!-- Tên sp -->
+                        BALEN
+                    </h1>
+                    <div class="text-l font-semibold text-gray-500"> <!-- Giá sau khi giảm giá -->
+                        $160.00
+                    </div>
+                    <div class="text-sm font-semibold text-gray-500 pl-2 line-through mr-9"> <!-- Giá gốc -->
+                        $210.00
+                    </div>
+                    <div class="w-full text-sm font-medium text-gray-700"> <!-- Mô tả ngắn -->
+                        Sản xuất thủ công
+                    </div>
+                </div>
             </div>
 
-            <div class="w-1/4 h-68">
+            <div class="w-1/4 h-60">
                 <img class="w-5/6 h-56 flex items-center justify-center p-4 border-b-2 border-r-2" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(283).jpg" alt="">
-                <p class="flex justify-center font-semibold border-b-2">
-                    abc
-                </p>
+                <div class="flex ml-2 mr-6 flex-wrap">
+                    <h1 class="flex-auto text-l font-semibold"> <!-- Tên sp -->
+                        PUMA
+                    </h1>
+                    <div class="text-l font-semibold text-gray-500"> <!-- Giá sau khi giảm giá -->
+                        $260.00
+                    </div>
+                    <div class="text-sm font-semibold text-gray-500 pl-2 line-through mr-9"> <!-- Giá gốc -->
+                        $540.00
+                    </div>
+                    <div class="w-full text-sm font-medium text-gray-700"> <!-- Mô tả ngắn -->
+                        Giảm giá duy nhất ngày hôm nay
+                    </div>
+                </div>
             </div>
         </div>
     </div>
