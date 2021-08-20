@@ -169,10 +169,10 @@
     </div>
     <!-- Phần đánh giá, mô tả -->
     <div class="flex justify-between w-full h-96 mt-6 border-t-2">
-        <div class="w-1/3 h-full mt-6 ml-12">
+        <div class="w-1/3 h-full mt-6 ml-24">
             <!-- Phần đánh giá -->
             <div class="flex mr-2">
-                <div class="text-sm font-medium text-gray-700 w-1/3">
+                <div class="text-xl font-medium text-gray-700 w-2/3">
                     Xếp hạng và đánh giá
                 </div>
                 <div class="flex w-1/3">
@@ -187,36 +187,60 @@
             </div>
             <br>
             <!-- Phần đánh giá khách hàng -->
-            <div class="flex text-sm font-medium text-gray-700 w-full">
-                20/7/2020 -----
-                <svg width="20" height="20" fill="currentColor" class="text-violet-600">
-                    <path d="M9.05 3.691c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.372 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.539 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.363-1.118l-2.8-2.034c-.784-.57-.381-1.81.587-1.81H7.03a1 1 0 00.95-.69L9.05 3.69z" />
-                </svg>
-                <div class="ml-1">
-                    <span class="text-black">4.5</span>
+            <div class="flex text-sm font-medium text-gray-700 w-2/3">
+                20/07/2020
+                <div class="ml-32 flex">
+                    <svg width="20" height="20" fill="currentColor" class="text-violet-600 mr-0">
+                        <path d="M9.05 3.691c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.372 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.539 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.363-1.118l-2.8-2.034c-.784-.57-.381-1.81.587-1.81H7.03a1 1 0 00.95-.69L9.05 3.69z" />
+                    </svg>
+                    <div class="ml-1">
+                        <span class="text-black">4.5</span>
+                    </div>
                 </div>
             </div>
-            Sản Phẩm dùng tốt
-            <div class="flex text-sm font-medium text-gray-700 w-full">
-                20/7/2020 -----
-                <svg width="20" height="20" fill="currentColor" class="text-violet-600">
-                    <path d="M9.05 3.691c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.372 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.539 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.363-1.118l-2.8-2.034c-.784-.57-.381-1.81.587-1.81H7.03a1 1 0 00.95-.69L9.05 3.69z" />
-                </svg>
-                <div class="ml-1">
-                    <span class="text-black">4.0</span>
+            <div class="col-start-1 row-start-3 space-y-3 pr-4">
+                <p class="flex items-center text-black text-sm font-medium">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdBWMw05M04BIRa7SIuc9f4by2Sa0VR7ZcFw&usqp=CAU" alt="" class="w-6 h-6 rounded-full mr-2 bg-gray-100">
+                  Trần Xuân Hương
+                </p>
+                </div>
+            <p class="border-b-2 border-gray-500 w-2/3">Sản Phẩm dùng tốt</p>
+            <div class="flex text-sm font-medium text-gray-700 w-2/3">
+                26/03/2021
+                <div class="ml-32 flex">
+                    <svg width="20" height="20" fill="currentColor" class="text-violet-600 mr-0">
+                        <path d="M9.05 3.691c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.372 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.539 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.363-1.118l-2.8-2.034c-.784-.57-.381-1.81.587-1.81H7.03a1 1 0 00.95-.69L9.05 3.69z" />
+                    </svg>
+                    <div class="ml-1">
+                        <span class="text-black">4.0</span>
+                    </div>
                 </div>
             </div>
-            Sản Phẩm dùng tạm được
-            <div class="flex text-sm font-medium text-gray-700 w-full">
-                20/7/2020 -----
-                <svg width="20" height="20" fill="currentColor" class="text-violet-600">
-                    <path d="M9.05 3.691c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.372 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.539 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.363-1.118l-2.8-2.034c-.784-.57-.381-1.81.587-1.81H7.03a1 1 0 00.95-.69L9.05 3.69z" />
-                </svg>
-                <div class="ml-1">
-                    <span class="text-black">5.0</span>
+            <p class="border-b-2 border-gray-500 w-2/3">Sản Phẩm dùng tạm được</p>
+            <div class="flex text-sm font-medium text-gray-700 w-2/3">
+                12/06/2021
+                <div class="ml-32 flex">
+                    <svg width="20" height="20" fill="currentColor" class="text-violet-600 mr-0">
+                        <path d="M9.05 3.691c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.372 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.539 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.363-1.118l-2.8-2.034c-.784-.57-.381-1.81.587-1.81H7.03a1 1 0 00.95-.69L9.05 3.69z" />
+                    </svg>
+                    <div class="ml-1">
+                        <span class="text-black">5.0</span>
+                    </div>
                 </div>
             </div>
-            Amazingg goodd chóp
+            <p class="border-b-2 border-gray-500 w-2/3">Amazingg goodd chóp</p>
+            <div class="flex text-sm font-medium text-gray-700 w-2/3">
+                13/05/2021
+                <div class="ml-32 flex">
+                    <svg width="20" height="20" fill="currentColor" class="text-violet-600 mr-0">
+                        <path d="M9.05 3.691c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.372 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.539 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.363-1.118l-2.8-2.034c-.784-.57-.381-1.81.587-1.81H7.03a1 1 0 00.95-.69L9.05 3.69z" />
+                    </svg>
+                    <div class="ml-1">
+                        <span class="text-black">4.5</span>
+                    </div>
+                </div>
+            </div>
+            <p class="">Sản phẩm nên mua</p>
         </div>
         <div class="w-2/3 h-full">
             <div class="flex h-1/2 w-full border-2">
