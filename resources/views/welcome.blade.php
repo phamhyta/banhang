@@ -17,8 +17,8 @@
     <div class="flex justify-between w-full h-96">
         <div class="w-1/6 h-96">
             <div class="pl-2">
-                <div>
-                    <img id="image1" class="w-2/3 h-28 mt-4 ml-6" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(2).png" alt="" width="512" height="384">
+                <div class="border-b-2">
+                    <img id="image1" class="w-2/3 h-28 mt-4 ml-6 mb-2" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(2).png" alt="" width="512" height="384">
                     <script type="text/javascript">
                         var image = document.getElementById("image1");
                         var currentPos = 0;
@@ -37,41 +37,41 @@
                     </script>
                 </div>
 
-                <div>
-                    <img id="image2" class="w-2/3 h-28 mt-4 ml-6" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(4).png" alt="" width="512" height="384">
+                <div class="border-b-2">
+                    <img id="image2" class="w-2/3 h-28 mt-4 ml-6 mb-2" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(6).png" alt="" width="512" height="384">
                     <script type="text/javascript">
-                        var image = document.getElementById("image2");
+                        var imagee = document.getElementById("image2");
                         var currentPos = 0;
-                        var images = ["http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(4).png",
-                        "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(7).png",
-                        "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(8).png",
-                        "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(9).png",
-                        "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(10).png",];
+                        var images = ["http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(6).png",
+                        "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(2).png",
+                        "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(4).png",
+                        "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(5).png",
+                        "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(3).png",];
                         function volgendefoto()
                         {
                             if(++currentPos > 4)
                                 currentPos = 0;
-                            image.src = images[currentPos];
+                            imagee.src = images[currentPos];
                         }
                         setInterval(volgendefoto, 3000);
                     </script>
                 </div>
 
-                 <div>               
-                    <img id="image3" class="w-2/3 h-28 mt-4 ml-6" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(9).png" alt="" width="512" height="384">
+                 <div> 
+                    <img id="image3" class="w-2/3 h-28 mt-4 ml-6" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(3).png" alt="" width="512" height="384">
                     <script type="text/javascript">
-                        var image = document.getElementById("image3");
+                        var imageee = document.getElementById("image3");
                         var currentPos = 0;
-                        var images = ["http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(17).png",
-                        "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(11).png",
-                        "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(23).png",
-                        "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(24).png",
-                        "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(9).png",];
+                        var images = ["http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(3).png",
+                        "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(6).png",
+                        "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(2).png",
+                        "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(4).png",
+                        "http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(5).png",];
                         function volgendefoto()
                         {
                             if(++currentPos > 4)
                                 currentPos = 0;
-                            image.src = images[currentPos];
+                            imageee.src = images[currentPos];
                         }
                         setInterval(volgendefoto, 3000);
                     </script>
@@ -158,7 +158,7 @@
 
     <div class="relative w-full h-96 mt-6 border-t-2">
         <div class="absolute left-96 top-0 w-1/5 h-48 mt-4">
-            <img class="w-full h-full float-left" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="" width="512" height="384">
+            <img class="w-full h-full float-left" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(23).png" alt="" width="512" height="384">
         </div>
 
         <div class="flex items-center text-sm font-medium my-5 sm:mt-2 sm:mb-4">
@@ -174,7 +174,7 @@
         </div>
 
         <div class="absolute bottom-0 right-10 w-1/5 h-48 mb-4">
-            <img class="w-full h-full float-right" src="https://anhdep123.com/wp-content/uploads/2021/01/anh-giay-adidas.jpg" alt="" width="512" height="384">
+            <img class="w-full h-full float-right" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(24).png" alt="" width="512" height="384">
         </div>
 
         <div>
