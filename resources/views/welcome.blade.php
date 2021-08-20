@@ -165,9 +165,9 @@
     </div>
 
     <div class="relative w-full h-96 mt-6 border-t-2">
-        <ul>
+        <ul class="flex">
         <li class="absolute left-96 top-0 w-1/5 h-48 mt-4 border-2">
-            <img class="w-5/6 h-full float-left" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(23).png" alt="" width="512" height="384">
+            <img class="w-5/6 h-full float-right" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(23).png" alt="" width="512" height="384">
         </li>
         <li class="flex items-center text-sm font-medium my-5 sm:mt-2 sm:mb-4 w-1/3 border-2">
             <div class="flex-none text-sm font-medium text-gray-700 mr-2">Xếp hạng và đánh giá</div>
@@ -181,18 +181,20 @@
             <div class="text-base font-normal mx-2">·</div>
         </li>
 
-        <li class="absolute bottom-0 right-10 w-1/5 h-48 mb-4 border-2">
+        <li class="absolute bottom-0 right-10 w-1/5 h-48 border-2">
             <img class="w-5/6 h-full float-right" src="http://localhost/Web%20b%c3%a1n%20h%c3%a0ng/laravel/resources/views/image/anh_giay_nam/1(24).png" alt="" width="512" height="384">
         </li>
 
-        <li class="border-2 w-1/3 float-right mr-48">
-            <h1 class="flex justify-center text-3xl font-semibold float-right"> NIKE FAKE</h1>
-            <br>
-            <br>
-            <h3 class="text-l font-semibold float-right w-1/3 mr-48">
-                Tuy là hàng fake nhưng mà chất lượng không kém hàng real, màu sắc mẫu mã phải nói là chuẩn fake :)))
-                <br> Sản phẩm đảm bảo 1 lần nhìn qua k thể phát hiện là giả :))
-            </h3>
+        <li class="border-2 w-1/3 ml-64 mt-4 ">
+            <div>
+                <h1 class="text-3xl font-semibold float-left"> NIKE FAKE</h1>
+            </div>
+            <div>
+                <h3 class="text-l font-semibold float-rights w-full mr-48 mt-12">
+                    Tuy là hàng fake nhưng mà chất lượng không kém hàng real, màu sắc mẫu mã phải nói là chuẩn fake :)))
+                    <br> Sản phẩm đảm bảo 1 lần nhìn qua k thể phát hiện là giả :)) 
+                </h3>
+            </div>
         </li>
         </ul>
     </div>
