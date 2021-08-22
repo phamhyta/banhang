@@ -9,7 +9,7 @@
     <title>SHOP_XH</title>
 </head>
 
-<body class="bg-gradient-to-t from-blue-200 via-blue-100 to-blue-200">
+<body class="bg-gradient-to-t from-blue-500 via-blue-200 to-blue-500">
      <!-- Menu -->
     <div class="w-full h-36 border-b-2 border-gray-300">
         menu
@@ -94,14 +94,14 @@
                     <h1 class="flex-auto text-3xl font-semibold"> <!-- Tên sp -->
                         NIKE FAKE
                     </h1>
-                    <div class="text-3xl font-semibold text-gray-500 mr-2"> <!-- Giá sau khi giảm giá -->
+                    <div class="text-3xl font-semibold text-gray-700 mr-2"> <!-- Giá sau khi giảm giá -->
                         $90.00
                     </div>
                     <div class="text-xl font-semibold text-gray-500 pl-2 line-through mr-9"> <!-- Giá gốc -->
                         $110.00
                     </div>
                     <div class="w-full flex-none text-sm font-medium text-gray-700"> <!-- Mô tả ngắn -->
-                        San pham khong chinh hang
+                        Sản phẩm không chính hãng
                     </div>
                 </div>
                 <!-- Thanh chọn màu -->
@@ -176,7 +176,7 @@
                     Xếp hạng và đánh giá
                 </div>
                 <div class="flex w-1/3">
-                    <svg width="20" height="20" fill="currentColor" class="text-violet-600">
+                    <svg width="20" height="20" fill="currentColor" class="text-yellow-600">
                         <path d="M9.05 3.691c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.372 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.539 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.363-1.118l-2.8-2.034c-.784-.57-.381-1.81.587-1.81H7.03a1 1 0 00.95-.69L9.05 3.69z" />
                     </svg>
                     <div class="ml-1">
@@ -190,7 +190,7 @@
             <div class="flex text-sm font-medium text-gray-700 w-2/3">
                 20/07/2020 <!-- Ngày đánh giá -->
                 <div class="ml-32 flex">
-                    <svg width="20" height="20" fill="currentColor" class="text-violet-600 mr-0">
+                    <svg width="20" height="20" fill="currentColor" class="text-yellow-600 mr-0">
                         <path d="M9.05 3.691c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.372 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.539 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.363-1.118l-2.8-2.034c-.784-.57-.381-1.81.587-1.81H7.03a1 1 0 00.95-.69L9.05 3.69z" />
                     </svg>
                     <div class="ml-1">
@@ -208,7 +208,7 @@
             <div class="flex text-sm font-medium text-gray-700 w-2/3">
                 26/03/2021
                 <div class="ml-32 flex">
-                    <svg width="20" height="20" fill="currentColor" class="text-violet-600 mr-0">
+                    <svg width="20" height="20" fill="currentColor" class="text-yellow-600 mr-0">
                         <path d="M9.05 3.691c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.372 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.539 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.363-1.118l-2.8-2.034c-.784-.57-.381-1.81.587-1.81H7.03a1 1 0 00.95-.69L9.05 3.69z" />
                     </svg>
                     <div class="ml-1">
@@ -226,7 +226,7 @@
             <div class="flex text-sm font-medium text-gray-700 w-2/3">
                 12/06/2021
                 <div class="ml-32 flex">
-                    <svg width="20" height="20" fill="currentColor" class="text-violet-600 mr-0">
+                    <svg width="20" height="20" fill="currentColor" class="text-yellow-600 mr-0">
                         <path d="M9.05 3.691c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.372 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.539 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.363-1.118l-2.8-2.034c-.784-.57-.381-1.81.587-1.81H7.03a1 1 0 00.95-.69L9.05 3.69z" />
                     </svg>
                     <div class="ml-1">
@@ -244,7 +244,7 @@
             <div class="flex text-sm font-medium text-gray-700 w-2/3">
                 13/05/2021
                 <div class="ml-32 flex">
-                    <svg width="20" height="20" fill="currentColor" class="text-violet-600 mr-0">
+                    <svg width="20" height="20" fill="currentColor" class="text-yellow-600 mr-0">
                         <path d="M9.05 3.691c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.372 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.539 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.363-1.118l-2.8-2.034c-.784-.57-.381-1.81.587-1.81H7.03a1 1 0 00.95-.69L9.05 3.69z" />
                     </svg>
                     <div class="ml-1">
@@ -343,7 +343,7 @@
                             setInterval(volgendefoto, 3000);
                         </script> -->
                     </h1>
-                    <div id="gia1" class="text-l font-semibold text-gray-500"> <!-- Giá sau khi giảm giá -->
+                    <div id="gia1" class="text-l font-semibold text-gray-700"> <!-- Giá sau khi giảm giá -->
                         $90.00
                     </div>
                     <div id="giag1" class="text-sm font-semibold text-gray-500 pl-2 line-through mr-9"> <!-- Giá gốc -->
@@ -354,7 +354,7 @@
                             Sản phẩm không chính hãng
                         </div>
                         <div class="flex w-1/3">
-                            <svg width="20" height="20" fill="currentColor" class="text-violet-600">
+                            <svg width="20" height="20" fill="currentColor" class="text-yellow-600">
                                 <path d="M9.05 3.691c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.372 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.539 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.363-1.118l-2.8-2.034c-.784-.57-.381-1.81.587-1.81H7.03a1 1 0 00.95-.69L9.05 3.69z" />
                             </svg>
                             <div class="ml-1">
@@ -390,7 +390,7 @@
                     <h1 class="flex-auto text-l font-semibold"> <!-- Tên sp -->
                         ADIDAS
                     </h1>
-                    <div class="text-l font-semibold text-gray-500"> <!-- Giá sau khi giảm giá -->
+                    <div class="text-l font-semibold text-gray-700"> <!-- Giá sau khi giảm giá -->
                         $120.00
                     </div>
                     <div class="text-sm font-semibold text-gray-500 pl-2 line-through mr-9"> <!-- Giá gốc -->
@@ -401,7 +401,7 @@
                             Sản phẩm chất lương cao
                         </div>
                         <div class="flex w-1/3">
-                            <svg width="20" height="20" fill="currentColor" class="text-violet-600">
+                            <svg width="20" height="20" fill="currentColor" class="text-yellow-600">
                                 <path d="M9.05 3.691c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.372 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.539 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.363-1.118l-2.8-2.034c-.784-.57-.381-1.81.587-1.81H7.03a1 1 0 00.95-.69L9.05 3.69z" />
                             </svg>
                             <div class="ml-1">
@@ -418,7 +418,7 @@
                     <h1 class="flex-auto text-l font-semibold"> <!-- Tên sp -->
                         CONVER
                     </h1>
-                    <div class="text-l font-semibold text-gray-500"> <!-- Giá sau khi giảm giá -->
+                    <div class="text-l font-semibold text-gray-700"> <!-- Giá sau khi giảm giá -->
                         $120.00
                     </div>
                     <div class="text-sm font-semibold text-gray-500 pl-2 line-through mr-9"> <!-- Giá gốc -->
@@ -429,7 +429,7 @@
                             Hàng thượng hải, số lượng có hạn
                         </div>
                         <div class="flex w-1/3">
-                            <svg width="20" height="20" fill="currentColor" class="text-violet-600">
+                            <svg width="20" height="20" fill="currentColor" class="text-yellow-600">
                                 <path d="M9.05 3.691c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.372 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.539 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.363-1.118l-2.8-2.034c-.784-.57-.381-1.81.587-1.81H7.03a1 1 0 00.95-.69L9.05 3.69z" />
                             </svg>
                             <div class="ml-1">
@@ -446,7 +446,7 @@
                     <h1 class="flex-auto text-l font-semibold"> <!-- Tên sp -->
                         BALEN
                     </h1>
-                    <div class="text-l font-semibold text-gray-500"> <!-- Giá sau khi giảm giá -->
+                    <div class="text-l font-semibold text-gray-700"> <!-- Giá sau khi giảm giá -->
                         $160.00
                     </div>
                     <div class="text-sm font-semibold text-gray-500 pl-2 line-through mr-9"> <!-- Giá gốc -->
@@ -457,7 +457,7 @@
                             Sản xuất thủ công
                         </div>
                         <div class="flex w-1/3">
-                            <svg width="20" height="20" fill="currentColor" class="text-violet-600">
+                            <svg width="20" height="20" fill="currentColor" class="text-yellow-600">
                                 <path d="M9.05 3.691c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.372 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.539 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.363-1.118l-2.8-2.034c-.784-.57-.381-1.81.587-1.81H7.03a1 1 0 00.95-.69L9.05 3.69z" />
                             </svg>
                             <div class="ml-1">
@@ -474,7 +474,7 @@
                     <h1 class="flex-auto text-l font-semibold"> <!-- Tên sp -->
                         PUMA
                     </h1>
-                    <div class="text-l font-semibold text-gray-500"> <!-- Giá sau khi giảm giá -->
+                    <div class="text-l font-semibold text-gray-700"> <!-- Giá sau khi giảm giá -->
                         $260.00
                     </div>
                     <div class="text-sm font-semibold text-gray-500 pl-2 line-through mr-9"> <!-- Giá gốc -->
@@ -485,7 +485,7 @@
                             Giảm giá duy nhất ngày hôm nay
                         </div>
                         <div class="flex w-1/3">
-                            <svg width="20" height="20" fill="currentColor" class="text-violet-600">
+                            <svg width="20" height="20" fill="currentColor" class="text-yellow-600">
                                 <path d="M9.05 3.691c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.372 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.539 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.363-1.118l-2.8-2.034c-.784-.57-.381-1.81.587-1.81H7.03a1 1 0 00.95-.69L9.05 3.69z" />
                             </svg>
                             <div class="ml-1">
