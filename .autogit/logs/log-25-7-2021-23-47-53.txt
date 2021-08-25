@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Wed Aug 25 2021 23:47:53 GMT+0700 (Indochina Time)
+------------------------------------------------------
+
+Modified files:
+* public/js/app.js
+* resources/css/app.css
+* resources/views/content/home.blade.php
+
+
+Created files:
+* .autogit/logs/log-25-7-2021-23-17-41.txt
+* resources/views/header.blade.php
+
+
+Deleted files:
+
+
+Renamed files:
