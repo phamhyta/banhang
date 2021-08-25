@@ -12,7 +12,7 @@
 <body class="bg-gradient-to-t from-blue-500 via-blue-200 to-blue-500">
      <!-- Menu -->
     <div class="w-full h-36 border-b-2 border-gray-300">
-        menu
+        
     </div>
     <!-- Sản phẩm chi tiết -->
     <div class="flex justify-between w-full h-96 mt-4">
