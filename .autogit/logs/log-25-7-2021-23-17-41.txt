@@ -1,0 +1,21 @@
+-------------------- Auto-Git Log --------------------
+		Wed Aug 25 2021 23:17:41 GMT+0700 (Indochina Time)
+------------------------------------------------------
+
+Modified files:
+* public/css/app.css
+* public/js/app.js
+* public/mix-manifest.json
+* resources/css/app.css
+* resources/views/welcome.blade.php
+
+
+Created files:
+* .autogit/logs/log-22-7-2021-20-6-20.txt
+* tailwind.config.js
+
+
+Deleted files:
+
+
+Renamed files:

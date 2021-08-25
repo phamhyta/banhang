@@ -1,9 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 @layer components {
     .menu-item {
         @apply p-5 inline-block border-b-4 border-white hover: border-yellow-500;
