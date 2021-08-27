@@ -1,0 +1,21 @@
+-------------------- Auto-Git Log --------------------
+		Fri Aug 27 2021 22:34:49 GMT+0700 (Indochina Time)
+------------------------------------------------------
+
+Modified files:
+* resources/lang/en/validation.php
+* resources/views/header.blade.php
+* resources/views/welcome.blade.php
+* routes/api.php
+* routes/web.php
+* tailwind.config.js
+
+
+Created files:
+* .autogit/logs/log-26-7-2021-0-18-28.txt
+
+
+Deleted files:
+
+
+Renamed files:

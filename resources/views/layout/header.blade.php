@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="{{ asset('css/app.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
     <title>Document</title>
 </head>
-<body class="font-sans">
+<body class="bg-white font-sans">
     <nav>
         <div class="flex justify-between bg-gray-300">
             <div class="inline-block relative ml-5">
@@ -37,12 +38,12 @@
                 <li class="group">
                     <a class="menu-item group-hover:border-yellow-500">Men</a>
                     <!-- MEGA MENU CONTENT -->
-                    <div class="w-full megaMenuContent p-5 absolute top-full left-0 bg-gray-300 mt-14 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:mt-0 transition-all duration-500">
+                    <div class="w-full z-10 megaMenuContent p-5 absolute top-full left-0 bg-gray-300 mt-14 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:mt-0 transition-all duration-500">
                         <ul class="p-2 w-1/3">
                             <li>
                                 <a class="mega-sub-item-title">
                                     FIND YOUR OWN SHOES
-                                    <div class=" border-b-2 w-44 border-yellow-500"></div>
+                                    <div class=" border-b-2 w-60 border-yellow-500"></div>
                                 </a>
                             </li>
                             <li class="sub-dropdown relative">
@@ -152,7 +153,7 @@
                             <li class=" pt-5">
                                 <a class="mega-sub-item-title">
                                     DISCOVER MORE
-                                    <div class=" border-b-2 w-32 border-yellow-500"></div>
+                                    <div class=" border-b-2 w-40 border-yellow-500"></div>
                                 </a>
                             </li>
                             <li>
@@ -168,12 +169,12 @@
                 <li class="group">
                     <a class="menu-item group-hover:border-yellow-500">Women</a>
                     <!-- MEGA MENU CONTENT -->
-                    <div class="w-full megaMenuContent p-5 absolute top-full left-0 bg-gray-300 mt-14 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:mt-0 transition-all duration-500">
+                    <div class="w-full z-10 megaMenuContent p-5 absolute top-full left-0 bg-gray-300 mt-14 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:mt-0 transition-all duration-500">
                         <ul class="p-2 w-1/3">
                             <li>
                                 <a class="mega-sub-item-title">
                                     FIND YOUR OWN SHOES
-                                    <div class=" border-b-2 w-44 border-yellow-500"></div>
+                                    <div class=" border-b-2 w-60 border-yellow-500"></div>
                                 </a>
                             </li>
                             <li class="sub-dropdown relative">
@@ -283,7 +284,7 @@
                             <li class=" pt-5">
                                 <a class="mega-sub-item-title">
                                     DISCOVER MORE
-                                    <div class=" border-b-2 w-32 border-yellow-500"></div>
+                                    <div class=" border-b-2 w-40 border-yellow-500"></div>
                                 </a>
                             </li>
                             <li>
@@ -299,12 +300,12 @@
                 <li class="group">
                     <a class="menu-item group-hover:border-yellow-500">Kid</a>
                     <!-- MEGA MENU CONTENT -->
-                    <div class="w-full megaMenuContent p-5 absolute top-full left-0 bg-gray-300 mt-14 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:mt-0 transition-all duration-500">
+                    <div class="w-full z-10 megaMenuContent p-5 absolute top-full left-0 bg-gray-300 mt-14 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:mt-0 transition-all duration-500">
                         <ul class="p-2 w-1/3">
                             <li>
                                 <a class="mega-sub-item-title">
                                     FIND YOUR OWN SHOES
-                                    <div class=" border-b-2 w-44 border-yellow-500"></div>
+                                    <div class=" border-b-2 w-60 border-yellow-500"></div>
                                 </a>
                             </li>
                             <li class="sub-dropdown relative">
@@ -414,7 +415,7 @@
                             <li class=" pt-5">
                                 <a class="mega-sub-item-title">
                                     DISCOVER MORE
-                                    <div class=" border-b-2 w-32 border-yellow-500"></div>
+                                    <div class=" border-b-2 w-40 border-yellow-500"></div>
                                 </a>
                             </li>
                             <li>
@@ -430,12 +431,12 @@
                 <li class="group">
                     <a class="menu-item group-hover:border-yellow-500">Sales</a>
                     <!-- MEGA MENU CONTENT -->
-                    <div class="w-full megaMenuContent p-5 absolute top-full left-0 bg-gray-300 mt-14 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:mt-0 transition-all duration-500">
+                    <div class="w-full z-10 megaMenuContent p-5 absolute top-full left-0 bg-gray-300 mt-14 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:mt-0 transition-all duration-500">
                         <ul class="p-2 w-1/3">
                             <li>
                                 <a class="mega-sub-item-title">
                                     FIND YOUR OWN SHOES
-                                    <div class=" border-b-2 w-44 border-yellow-500"></div>
+                                    <div class=" border-b-2 w-60 border-yellow-500"></div>
                                 </a>
                             </li>
                             <li class="sub-dropdown relative">
@@ -545,7 +546,7 @@
                             <li class=" pt-5">
                                 <a class="mega-sub-item-title">
                                     DISCOVER MORE
-                                    <div class=" border-b-2 w-32 border-yellow-500"></div>
+                                    <div class=" border-b-2 w-40 border-yellow-500"></div>
                                 </a>
                             </li>
                             <li>
@@ -569,9 +570,7 @@
     </nav>
     <div class=" py-10">
         @yield('content')
-    </div>
-
-
+    </div>    
     <footer class="bg-gray-800">
         <div class="container px-6 py-4 mx-auto">
             <div class="lg:flex">
@@ -580,9 +579,9 @@
                         <div>
                             <a href="#" class="text-xl font-bold text-white hover:text-gray-300">Brand</a>
                         </div>
-
+                        
                         <p class="max-w-md mt-2 text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, nisi! Id.</p>
-
+                        
                         <div class="flex mt-4 -mx-2">
                             <a href="#" class="mx-2 text-gray-200 hover:text-gray-400" aria-label="Linkden">
                                 <svg class="w-4 h-4 fill-current" viewBox="0 0 512 512">
@@ -645,5 +644,4 @@
         </div>
     </footer>
 </body>
-
-</html> 
+</html>

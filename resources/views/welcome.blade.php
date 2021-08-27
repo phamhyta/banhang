@@ -484,6 +484,5 @@
         </div>
     </div>
 </div>
-<div class="h-64 w-full border-2"></div>
 @endsection 
 
