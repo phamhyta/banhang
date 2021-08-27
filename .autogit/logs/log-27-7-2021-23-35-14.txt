@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Fri Aug 27 2021 23:35:14 GMT+0700 (Indochina Time)
+------------------------------------------------------
+
+Modified files:
+* routes/web.php
+* webpack.mix.js
+
+
+Created files:
+* .autogit/logs/log-27-7-2021-23-4-54.txt
+
+
+Deleted files:
+
+
+Renamed files:
