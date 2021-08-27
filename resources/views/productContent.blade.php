@@ -1,7 +1,7 @@
 @extends('layout.header')
 @section('content')
   <!-- Chon mau giay -->
-  <div class="border-2 border-red-900 mx-5">
+  <div class="mx-5">
       <div class="font-bold text-5xl font-medium pb-10">
           Shoes selector
       </div>
@@ -11,7 +11,7 @@
           <div class="bg-gray-300 w-4/6">
               <ul class="flex flex-wrap font-normal justify-center w-full">
                   <li class=" w-1/3 p-20">
-                      <div class="inline-block relative w-64">
+                      <div class="inline-block relative w-full">
                           <select class="block appearance-none w-full bg-gray-300 border-b-2 border-black px-4 py-2 pr-8 leading-tight focus:outline-none focus:shadow-outline">
                             <option>Category</option>
                             <option>Football</option>
@@ -25,7 +25,7 @@
                         </div>
                   </li>
                   <li class=" w-1/3 p-20">
-                      <div class="inline-block relative w-64">
+                      <div class="inline-block relative w-full">
                           <select class="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
                             <option>Size</option>
                             <option>S</option>
@@ -40,7 +40,7 @@
                         </div>
                   </li>
                   <li class=" w-1/3 p-20">
-                      <div class="inline-block relative w-64">
+                      <div class="inline-block relative w-full">
                           <select class="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
                             <option>Material</option>
                             <option>Cotton</option>
@@ -56,7 +56,7 @@
               </ul>
               <ul class="flex flex-wrap font-normal justify-center">
                   <li class=" w-1/3 p-20">
-                      <div class="inline-block relative w-64">
+                      <div class="inline-block relative w-full">
                           <select class="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
                             <option>Price</option>
                             <option>Low</option>
@@ -69,7 +69,7 @@
                         </div>
                   </li>
                   <li class=" w-1/3 p-20">
-                      <div class="inline-block relative w-64">
+                      <div class="inline-block relative w-full">
                           <select class="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
                             <option>Brand</option>
                             <option>Nikadas Original</option>
@@ -83,7 +83,7 @@
                         </div>
                   </li>
                   <li class=" w-1/3 p-20">
-                      <div class="inline-block relative w-64">
+                      <div class="inline-block relative w-full">
                           <select class="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
                             <option>Surface</option>
                             <option>Smooth</option>
@@ -97,7 +97,7 @@
               </ul>
               <ul class="flex flex-wrap font-normal justify-center">
                   <li class=" w-1/3 p-20">
-                      <div class="inline-block relative w-64">
+                      <div class="inline-block relative w-full">
                           <select class="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
                             <option>Color</option>
                             <option>Yellow</option>
@@ -111,7 +111,7 @@
                         </div>
                   </li>
                   <li class=" w-1/3 p-20">
-                      <div class="inline-block relative w-64">
+                      <div class="inline-block relative w-full">
                           <select class="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
                             <option>Shoes height</option>
                             <option>Option 2</option>
@@ -123,7 +123,7 @@
                         </div>
                   </li>
                   <li class=" w-1/3 p-20">
-                      <div class="inline-block relative w-64">
+                      <div class="inline-block relative w-full">
                           <select class="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
                             <option>Athletes</option>
                             <option>Option 2</option>
